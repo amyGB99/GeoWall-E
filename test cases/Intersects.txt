@@ -1,0 +1,24 @@
+﻿line l1;
+ray r1;
+segment s1;
+circle c1;
+arc a1;
+i1= intersect(l1,r1);
+i2= intersect(l1,s1);
+i3= intersect(l1,c1);
+i4= intersect(l1,a1);
+i5= intersect(r1,s1);
+i6= intersect(r1,c1);
+i7= intersect(r1,a1);
+i8= intersect(s1,c1);
+i9= intersect(s1,a1);
+i10= intersect(c1,a1);
+
+draw l1 ;
+draw r1 ;
+draw s1 ;
+draw c1 ;
+draw a1 ;
+
+color red;
+draw {i1,i2,i3,i4,i5,i6,i7,i8,i9,i10};

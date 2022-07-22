@@ -1,0 +1,8 @@
+﻿k = let 
+     a = let 
+           c = 4; 
+         in c; 
+     b = let
+           c = 5;
+         in c; 
+     in a + b;   

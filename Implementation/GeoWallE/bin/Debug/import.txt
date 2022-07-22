@@ -1,0 +1,2 @@
+﻿import "prueba.txt";
+draw p1;

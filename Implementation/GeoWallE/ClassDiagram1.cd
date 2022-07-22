@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GeoWallE.Ast.AstNode" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Ast\AstNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.InstruccionNode" Collapsed="true">
+    <Position X="62" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\InstructionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.ProgramNode" Collapsed="true">
+    <Position X="68.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAgAAAAAAAA=</HashCode>
+      <FileName>Ast\ProgramNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.AdditionNode" Collapsed="true">
+    <Position X="37.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\AdditionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.AndNode" Collapsed="true">
+    <Position X="41.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\AndNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.DivisionNode" Collapsed="true">
+    <Position X="46.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\DivisionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.EqualsNode" Collapsed="true">
+    <Position X="50.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\EqualsNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.GreaterNode" Collapsed="true">
+    <Position X="55.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\GreaterNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.GreaterOrEqualsNode" Collapsed="true">
+    <Position X="76.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\GreaterOrEqualsNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.LessNode" Collapsed="true">
+    <Position X="32.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\LessNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.LessOrEqualsNode" Collapsed="true">
+    <Position X="35" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\LessOrEqualsNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.MultiplicationNode" Collapsed="true">
+    <Position X="39.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\MultiplicationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.NotEqualsNode" Collapsed="true">
+    <Position X="44" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\NotEqualsNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.OrNode" Collapsed="true">
+    <Position X="48.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\OrNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Binary.SubtractionNode" Collapsed="true">
+    <Position X="53" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Binary\SubtractionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.BinaryNode" Collapsed="true">
+    <Position X="44" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Expression\BinaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.ExpresionesNode" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\ExpressionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.UnitaryNode" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Expression\UnitaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.ValueNode" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAA=</HashCode>
+      <FileName>Ast\Expression\ValueNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Unitary.ModulusNode" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Unitary\ModulusNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Unitary.NotNode" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Unitary\NotNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.ArcNode" Collapsed="true">
+    <Position X="28.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\ArcNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.CircleNode" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\CircleNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.IdNode" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\IdNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.LineNode" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAIAQ=</HashCode>
+      <FileName>Ast\Expression\Value\LineNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.NumberNode" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\NumberNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.PointNode" Collapsed="true">
+    <Position X="21.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAABAAAAQ=</HashCode>
+      <FileName>Ast\Expression\Value\PointNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.RefNode" Collapsed="true">
+    <Position X="26" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\RefNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.SegmentNode" Collapsed="true">
+    <Position X="30.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\SegmentNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.SequenceNode" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\SequenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.TextNode" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Value\TextNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Instruction.ColorNode" Collapsed="true">
+    <Position X="57.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Instruction\ColorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Instruction.DeclarationNode" Collapsed="true">
+    <Position X="59.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAgAAAAAAAQAAACAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Instruction\DeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Instruction.DrawNode" Collapsed="true">
+    <Position X="62" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgACAAABAAAAAAAAAEAAACAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Instruction\DrawNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Instruction.RestoreNode" Collapsed="true">
+    <Position X="66.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Instruction\RestoreNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Canvas" Collapsed="true">
+    <Position X="71.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAACAJAAAAAACAABACAIAAABAQAEgAAABAAAA=</HashCode>
+      <FileName>Canvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Figura" Collapsed="true">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GeoWallE.Medida" Collapsed="true">
+    <Position X="71.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Segmento" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Rayo" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Recta" Collapsed="true">
+    <Position X="1.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAAAAAAAAAAAAQAEAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Punto" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAABAAAAgAAAAAAAQAABAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Circunferencia" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Arco" Collapsed="true">
+    <Position X="7.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.SecuenciaDePuntos" Collapsed="true">
+    <Position X="76.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAIAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.SecuenciaDeRectas" Collapsed="true">
+    <Position X="71.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.SecuenciaDeSegmentos" Collapsed="true">
+    <Position X="73" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.SecuenciadDeRayos" Collapsed="true">
+    <Position X="71.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.SecuenciaDeCircunferencias" Collapsed="true">
+    <Position X="74.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.SecuenciaDeArcos" Collapsed="true">
+    <Position X="73" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Form1" Collapsed="true">
+    <Position X="74.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAACAAAAAFAACAAAAiCAAAAQAAAAMAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Compiling" Collapsed="true">
+    <Position X="73" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>LexicalAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Program" Collapsed="true">
+    <Position X="73" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Scope" Collapsed="true">
+    <Position X="76.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Scope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Properties.Resources" Collapsed="true">
+    <Position X="74.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Properties.Settings" Collapsed="true">
+    <Position X="74.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.TernaryNode" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ast\Expression\TernaryNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Ternary.ConditionalNode" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>Ast\Expression\Ternary\ConditionalNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Expression.Value.RayNode" Collapsed="true">
+    <Position X="23.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAABAAIAA=</HashCode>
+      <FileName>Ast\Expression\Value\RayNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Ast.Instruction.IdentifierNode" Collapsed="true">
+    <Position X="64.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAgAAAAAAAAAAgCAEAAAAAAAA=</HashCode>
+      <FileName>Ast\Instruction\IdentifierNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeoWallE.Parsing" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIUIAAAAAAAAABIAABAAAABAEImBCAAAQAACBAIA=</HashCode>
+      <FileName>Parsing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GeoWallE.MetodosComunes" Collapsed="true">
+    <Position X="71.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GeoWallE.Ast.Expression.ExpressionTypes" Collapsed="true">
+    <Position X="71.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACABAAAAAAAAAAAAAAAAAAAAAAKAIAIAAA=</HashCode>
+      <FileName>Ast\Expression\ExpressionTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GeoWallE.Ast.Expression.ValuesTypes" Collapsed="true">
+    <Position X="73" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAigAAAEEAAAAAAAgAAIAAAAAACAABAAA=</HashCode>
+      <FileName>Ast\Expression\ValuesTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

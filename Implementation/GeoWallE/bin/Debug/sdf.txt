@@ -1,0 +1,5 @@
+﻿line p1;
+line p2;
+line p3;
+line p4;
+draw {{p1,p2},{p3,p4}};

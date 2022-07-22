@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB4A420E-0722-4103-B90E-3600159E9EB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeoWallE</RootNamespace>
+    <AssemblyName>GeoWallE</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Edit">
+      <HintPath>..\Syncfusion.Edit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ast\Expression\FuncionExpressionNode.cs" />
+    <Compile Include="Ast\Expression\Value\IntersectNode.cs" />
+    <Compile Include="Ast\Expression\Value\InfinitySequenceNode.cs" />
+    <Compile Include="Ast\Instruction\AstNode.cs" />
+    <Compile Include="Ast\ExpressionNode.cs" />
+    <Compile Include="Ast\ExpressionTypes.cs" />
+    <Compile Include="Ast\Expression\BinaryNode.cs" />
+    <Compile Include="Ast\Expression\Binary\AdditionNode.cs" />
+    <Compile Include="Ast\Expression\Binary\AndNode.cs" />
+    <Compile Include="Ast\Expression\Binary\DivisionNode.cs" />
+    <Compile Include="Ast\Expression\Binary\EqualsNode.cs" />
+    <Compile Include="Ast\Expression\Binary\GreaterNode.cs" />
+    <Compile Include="Ast\Expression\Binary\GreaterOrEqualsNode.cs" />
+    <Compile Include="Ast\Expression\Binary\LessNode.cs" />
+    <Compile Include="Ast\Expression\Binary\LessOrEqualsNode.cs" />
+    <Compile Include="Ast\Expression\Binary\ModulsNode.cs" />
+    <Compile Include="Ast\Expression\Binary\MultiplicationNode.cs" />
+    <Compile Include="Ast\Expression\Binary\NotEqualsNode.cs" />
+    <Compile Include="Ast\Expression\Binary\OrNode.cs" />
+    <Compile Include="Ast\Expression\Binary\SubtractionNode.cs" />
+    <Compile Include="Ast\Expression\LetNode.cs" />
+    <Compile Include="Ast\Expression\TernaryNode.cs" />
+    <Compile Include="Ast\Expression\Ternary\ConditionalNode.cs" />
+    <Compile Include="Ast\Expression\UnitaryNode.cs" />
+    <Compile Include="Ast\Expression\Unitary\NotNode.cs" />
+    <Compile Include="Ast\Expression\ValueNode.cs" />
+    <Compile Include="Ast\Expression\ValuesTypes.cs" />
+    <Compile Include="Ast\Expression\Value\ArcNode.cs" />
+    <Compile Include="Ast\Expression\Value\CircleNode.cs" />
+    <Compile Include="Ast\Expression\Value\LineNode.cs" />
+    <Compile Include="Ast\Expression\Value\MeasureNode.cs" />
+    <Compile Include="Ast\Expression\Value\NumberNode.cs" />
+    <Compile Include="Ast\Expression\Value\PointNode.cs" />
+    <Compile Include="Ast\Expression\Value\RayNode.cs" />
+    <Compile Include="Ast\Expression\Value\RefNode.cs" />
+    <Compile Include="Ast\Expression\Value\SegmentNode.cs" />
+    <Compile Include="Ast\Expression\Value\SequenceNode.cs" />
+    <Compile Include="Ast\Expression\Value\TextNode.cs" />
+    <Compile Include="Ast\InstructionNode.cs" />
+    <Compile Include="Ast\Instruction\ColorNode.cs" />
+    <Compile Include="Ast\Instruction\DeclarationNode.cs" />
+    <Compile Include="Ast\Instruction\DrawNode.cs" />
+    <Compile Include="Ast\Instruction\FuncionInstructionNode.cs" />
+    <Compile Include="Ast\Instruction\MathNode.cs" />
+    <Compile Include="Ast\Instruction\RestoreNode.cs" />
+    <Compile Include="Ast\ProgramNode.cs" />
+    <Compile Include="Ast\TiposParaChequeo.cs" />
+    <Compile Include="Canvas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Canvas.Designer.cs">
+      <DependentUpon>Canvas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Figura.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LexicalAnalyzer.cs" />
+    <Compile Include="Metodos Importantes.cs" />
+    <Compile Include="Parsing.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scope.cs" />
+    <EmbeddedResource Include="Canvas.resx">
+      <DependentUpon>Canvas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Compiling\Compiling.csproj">
+      <Project>{02c31552-29a3-4734-8d4a-9c001beb8a4b}</Project>
+      <Name>Compiling</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

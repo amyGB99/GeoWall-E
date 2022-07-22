@@ -1,0 +1,2 @@
+﻿point p1;
+draw p1;
